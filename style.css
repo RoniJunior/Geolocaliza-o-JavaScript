@@ -1,0 +1,72 @@
+/* Styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #FFD700; /* Amarelo */
+    color: #000; /* Preto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     text-align: center; /* Centraliza o conteúdo */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto */
+    position: fixed; /* Fixa o título no topo */
+    top: 0; /* Posição no topo */
+    width: 100%; /* Ocupa toda a largura da página */
+    background-color: #f0db4f; /* Cor de fundo amarelo (estilo JavaScript) */
+    color: #333; /* Cor da fonte */
+    padding: 20px; /* Espaço em volta do texto */
+    margin: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+}
+
+/* Estilo para o conteúdo abaixo do título */
+body {
+    margin-top: 80px; /* Espaço para que o conteúdo não sobreponha o título */
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFD700; /* Amarelo */
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color:  #FFD700;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: #b7c408;
+    border-color: yellow;
+}
+
+
+/* Estilo do título principal */
+h1 {
+    color: #000000; /* Branco */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilo do subtítulo */
+h2 {
+    color: #000; /* Preto */
+    font-size: 1.5rem;
+}
